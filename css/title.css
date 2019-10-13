@@ -1,0 +1,60 @@
+
+footer {
+	text-align: left;
+}
+address {
+	font-style: normal;
+}
+address.author {
+	font-size: 20px;
+	font-variant: small-caps;
+}
+address.author::first-letter {
+	font-variant: normal;
+}
+nav {
+	font-feature-settings: "dlig", "kern", "liga";
+	font-size: 20px;
+	text-align: center;
+}
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+	font-variant-caps: titling-caps;
+	font-weight: 400;
+	font-size: 52px;
+	letter-spacing: 0.3em;
+	margin-bottom: 2rem;
+}
+hr {
+	border-color: #100d09;
+}
+h2 {
+	font-weight: 400;
+	font-size: 1em;
+	margin: 0;
+}
+article a {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+a div,
+a time {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+}
+a time {
+	flex-grow: 0;
+	font-feature-settings: "onum", "kern", "liga";
+}
+a div p {
+	margin: 0;
+}
+p.licence {
+	margin: 0;
+	font-feature-settings: "onum", "kern", "liga";
+	font-variant: small-caps;
+}

@@ -19,89 +19,38 @@
 body {
 	background-color: #fbf9f6;
 	color: #100d09;
-}
-p,
-figure,
-footer {
 	font-family: 'Heldane';
 	font-weight: 400;
-	font-size: 18px;
-	text-align: justify;
-	text-indent: 1.2em;
 	font-feature-settings: "kern", "liga";
-}
-p.single-line {
-	text-indent: 0;
-}
-footer {
-	text-align: right;
-}
-address {
-	font-style: normal;
-}
-span.first,
-address.author {
-	font-variant: small-caps;
-}
-span.first::first-letter,
-address.author::first-letter {
-	font-variant: normal;
-}
-time {
-	font-size: 16px;
-}
-time span.day {
-	font-feature-settings: "ordn", "kern", "liga";
-}
-time span.year {
-	font-feature-settings: "onum", "kern", "liga";
-}
-nav {
-	text-decoration: underline;
-	font-feature-settings: "dlig", "kern", "liga";
-}
-h1 {
-	text-transform: uppercase;
-	text-align: center;
-	font-family: 'Heldane';
-	font-weight: 400;
-	font-variant-caps: titling-caps;
-	font-size: 24px;
-	letter-spacing: 0.3em;
-	margin-bottom: 2rem;
-}
-figure {
-	text-align: center;
-	text-indent: 0;
-	margin: 0;
-}
-figcaption span {
-	font-style: italic;
 }
 img {
 	width: 27.5rem;
 	margin-top: 6px;
 }
-hr {
-    border: none;
+a {
+	color: #100d09;
+	text-decoration: none;
 }
-hr::before {
-    content: '* * *';
-    display: block;
-    text-align: center;
-}
+header,
 main,
+section,
 footer {
 	width: 28.75rem;
 }
+header,
 main {
 	margin: 3rem auto 0;
+}
+section {
+	margin: 3rem auto 3em;
 }
 footer {
 	margin: 0 auto 4rem;
 }
 @media (max-width:480px)  {
+	header,
 	main,
+	section,
 	footer {
 		width: unset;
 		margin-left: 1rem;
